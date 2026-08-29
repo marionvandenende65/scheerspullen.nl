@@ -167,7 +167,7 @@ section{position:relative}
 .tcard:hover .tb .go .arw{transform:translateX(4px)}
 /* ================= ARTIKEL-KAARTEN (product-stijl) ================= */
 .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:22px}
-.pcard{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;box-shadow:var(--sh-sm);transition:transform .25s ease,box-shadow .25s ease}
+.pcard{position:relative;display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;box-shadow:var(--sh-sm);transition:transform .25s ease,box-shadow .25s ease}
 .pcard:hover{transform:translateY(-5px);box-shadow:var(--sh)}
 .pcard .pm{position:relative;aspect-ratio:3/2;overflow:hidden;background:var(--surface-2)}
 .pcard .pm img{width:100%;height:100%;object-fit:cover;transition:transform .7s cubic-bezier(.2,.7,.2,1)}
